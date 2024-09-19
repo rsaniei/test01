@@ -1,11 +1,15 @@
 class Person{
-  constructor(name, age, job){
-    this.name = name;
+  constructor(firstName, lastName, age, job){
+    this.firstName = firstName;
+    this.lastName = lastName;
     this.age = age;
     this.job = job;
 
   }
   getAge(){
-    return `${this.name} is ${this.age}!`
+    return `${this.firstName} is ${this.age}!`
+  }
+  getFullName(){
+    return `${firstName} ${lastName}`
   }
 }

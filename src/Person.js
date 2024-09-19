@@ -5,4 +5,7 @@ class Person{
     this.job = job;
 
   }
+  getAge(){
+    return `${this.name} is ${this.age}!`
+  }
 }

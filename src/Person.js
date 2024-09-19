@@ -6,6 +6,9 @@ class Person{
     this.job = job;
 
   }
+  getAge(){
+    return `${this.firstName} is ${this.age}!`
+  }
   getFullName(){
     return `${firstName} ${lastName}`
   }
